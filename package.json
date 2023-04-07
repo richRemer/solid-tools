@@ -1,0 +1,16 @@
+{
+  "name": "@welib/solid-tools",
+  "version": "0.0.1",
+  "description": "SOLID command-line utilities",
+  "type": "module",
+  "bin": {
+    "webid-cert-export": "./bin/webid-cert-export.js"
+  },
+  "exports": {
+    "./turtle": "./src/turtle.js",
+    "./x509": "./src/x509.js"
+  },
+  "scripts": {
+    "test": "echo no tests defined"
+  }
+}
